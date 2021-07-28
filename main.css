@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+body {
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    direction: rtl;
+}
+
+.top-header {
+    background-image: url(/jakob-owens-CTflmHHVrBM-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header.top-header .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;
+}
+
+.custom-heading {
+    color: wheat;
+    line-height: 4;
+}
+
+p.text {
+    color: white;
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    margin: 60px 0;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .custom-heading {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    p.text {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .btn {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) { }
